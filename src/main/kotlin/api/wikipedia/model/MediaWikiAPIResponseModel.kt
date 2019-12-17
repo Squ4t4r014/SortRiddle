@@ -1,4 +1,4 @@
-package api.model
+package api.wikipedia.model
 
 data class MediaWikiAPIResponseModel (
     //val batchcomplete: String,

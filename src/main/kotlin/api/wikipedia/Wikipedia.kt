@@ -1,6 +1,6 @@
-package api
+package api.wikipedia
 
-import api.retrofit.MediaWikiAPI
+import api.wikipedia.retrofit.MediaWikiAPI
 import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking

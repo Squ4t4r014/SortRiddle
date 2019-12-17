@@ -1,4 +1,4 @@
-package api
+package api.wikipedia
 
 object Resource {
     const val root = "https://ja.wikipedia.org"
