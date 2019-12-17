@@ -1,9 +1,10 @@
 package main
 
+import api.Wikipedia
+import kotlin.system.exitProcess
+
 fun main(args: Array<String>) {
-    println("oh")
-}
-
-class Main {
-
+        val wikipedia = Wikipedia()
+        println(wikipedia.getRandomWikiTitle())
+        exitProcess(0)
 }
