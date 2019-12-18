@@ -1,6 +1,6 @@
-package api.wikipedia
+package question.wikipedia
 
-import api.wikipedia.retrofit.MediaWikiAPI
+import question.wikipedia.retrofit.MediaWikiAPI
 import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking

@@ -1,9 +1,9 @@
-package api.wikipedia.retrofit
+package question.wikipedia.retrofit
 
-import api.wikipedia.Resource
+import question.wikipedia.Resource
 import retrofit2.http.GET
 import retrofit2.Response
-import api.wikipedia.model.MediaWikiAPIResponseModel
+import question.wikipedia.model.MediaWikiAPIResponseModel
 
 interface MediaWikiAPI {
     @GET(Resource.random)
